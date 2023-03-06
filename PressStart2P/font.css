@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/PressStart2P/Press-Start-2P-Regular.eot'); /* IE9 */
+  src: url('/PressStart2P/Press-Start-2P-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/PressStart2P/Press-Start-2P-Regular.woff2') format('woff2'), /* Modern Browsers */
+    url('/PressStart2P/Press-Start-2P-Regular.woff') format('woff'), /* Modern Browsers */
+    url('/PressStart2P/Press-Start-2P-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/PressStart2P/Press-Start-2P-Regular.svg#PressStart2P') format('svg'); /* Legacy iOS */
+}

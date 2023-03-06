@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/PressStart2P/font.css">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="icon.png"/>
+  <title>Tetris</title>
+</head>
+<body>
+
+  <h1 class="title">TETRIS</h1>
+
+  <div class="game">
+    <div class="game-side">
+
+      <div class="game-score">
+        <p>Level:</p>
+        <p id="gameLevel"></p>
+        <p>Score:</p>
+        <p id="gameScore"></p>
+        <p>High Score:</p>
+        <p id="gameHighScore"></p>
+      </div>
+
+    </div>
+    <div class="game-board" id="gameBoard">
+      <!-- Pixels will be inserted by js -->
+    </div>
+  </div>
+
+  <div id="gameOver" class="game-over hidden">
+    <h1>Game Over!</h1>
+    <p id="gameOverGameScore"></p>
+    <button id="playAgainBtn">Play Again</button>
+  </div>
+
+  <div id="pauseScreen" class="pause-screen hidden">
+    <h1>Paused</h1>
+    <button id="resumeBtn">Resume</button>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+</html>
