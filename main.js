@@ -1,3 +1,6 @@
+const version = "Version: 1";
+document.getElementById("versionNumber").innerHTML = version;
+
 function create2DArr(width, height, defaultValue) {
   return Array.from({ length: width }, () => Array.from({ length: height }, () => defaultValue));
 }

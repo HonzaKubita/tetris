@@ -58,6 +58,18 @@ button {
   display: none;
 }
 
+.bottom-text {
+  padding: 10px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 /* Game */
 
 .game {
